@@ -1,0 +1,6 @@
+====== Presentations ======
+{{ :partners:hoteza_-_brief.pdf |Hoteza - Brief PDF}} \\
+{{ :partners:hoteza_-_brief.pptx |Hoteza - Brief PPTX}} \\
+{{ :partners:ksk-eng.pdf |ksk-eng.pdf}} \\
+{{ :partners:ksk-eng.zip |ksk-eng.zip}} \\
+{{ :partners:gotham.zip |Gotham Fonts}} \\

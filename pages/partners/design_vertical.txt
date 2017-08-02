@@ -1,0 +1,2 @@
+===== Vertical Design =====
+{{gallery>:partners?design-vertical-*&crop&lightbox}}

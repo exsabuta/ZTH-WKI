@@ -1,0 +1,6 @@
+====== Recommendation Letters ======
+{{ :partners:alliance_management.pdf |Alliance Management Recommendation Letter}} \\
+{{ :partners:domina.pdf |Domina Recommendation Letter}} \\
+{{ :partners:lg.pdf |LG Recommendation Letter}} \\
+{{ :partners:rimc_recommendation_letter.pdf |RIMC Recommendation Letter}} \\
+{{gallery>:partners?recommendation*&crop&lightbox}}

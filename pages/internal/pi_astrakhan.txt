@@ -1,0 +1,19 @@
+доступ через [https://secure.logmein.com/central/Central.aspx logmein] аккаунт vc@smarteq.tv VasiliJ
+
+==== система ====
+
+otrum Evolution over ip
+
+телевизоры '''LG'''
+
+STB '''ODM2'''
+
+==== Головная станция ====
+
+AppearTV, доступна по 172.16.1.50
+
+'''Каналы: ''' спутник FTA и НТВ+
+
+==== Сеть ====
+
+ip core switch 172.19.255.100

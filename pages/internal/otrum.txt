@@ -1,0 +1,11 @@
+[[internal:pi_nevskij|ПаркИнн Невский]]
+
+[[internal:pi_kazan|ПаркИнн Казань]]
+
+[[internal:pi_astrakhan|ПаркИнн Астрахань]]
+
+[[internal:pi_pulkovskaya|ПаркИнн Пулковская]]
+
+[[internal:pi_sheremetevo|ПаркИнн Шереметьево]]
+
+[[internal:pi_yaroslavl|ПаркИнн Ярославль]]

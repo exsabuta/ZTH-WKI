@@ -1,0 +1,163 @@
+====== HotezaTV — Музыка по запросу (MOD) ======
+
+=== Контексты ===
+  * [[#Список жанров]];
+  * [[#Список альбомов]];
+  * [[#Страница альбома]];
+  * [[#Страница альбома: режим воспроизведения]].
+
+===== Список жанров =====
+Перечень категорий (жанров) с одним уровнем вложенности.
+
+=== Шаблон макета ===
+<clmn>
+{{:internal:hotezatv-layout-default-m.png?linkonly|Metro Default Layout}}
+<nclmn>
+{{:internal:hotezatv-layout-default-c.png?linkonly|Classic Default Layout}}
+</clmn>
+
+=== Компоненты ===
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-genreslist-c.png?300}}\\
+<wrap lo>рис. 1</wrap>\\
+\\
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-genreslist-m.png?300}}\\
+<wrap lo>рис. 1.M</wrap>\\
+<nclmn>
+В //<color #8a2be2>блоке основного контента</color>// отображаются плитки жанров:
+  - Картинка-обложка жанра
+  - Название жанра
+</clmn>
+
+=== Управление ===
+<span button>[[#BACK]]</span> — Назад. Переход в предыдущий контекст.\\
+\\
+<span button>[[#L/R/U/D]]</span> – Навигация. Переход между жанрами.\\
+\\
+<span button>[[#ENTER]]</span> – Выбрать. Переход к [[#Список альбомов|списку альбомов]].\\
+\\
+
+===== Список альбомов =====
+Перечень альбомов данного жанра.
+По умолчанию в фокусе последний прослушанный альбом. Если нет прослушанных, первый в списке альбом.
+
+=== Шаблон макета ===
+<clmn>
+{{:internal:hotezatv-layout-default-m.png?linkonly|Metro Default Layout}}
+<nclmn>
+{{:internal:hotezatv-layout-default-c.png?linkonly|Classic Default Layout}}
+</clmn>
+
+=== Компоненты ===
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumslist-c.png?300}}\\
+<wrap lo>рис. 2</wrap>\\
+\\
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumslist-m.png?300}}\\
+<wrap lo>рис. 2.M</wrap>\\
+<nclmn>
+В //<color #8a2be2>блоке основного контента</color>// отображаются:
+  - Название жанра (Заголовок страницы)
+  - Плитки альбомов:
+    * Картинка-обложка альбома
+    * Название альбома
+    * Имя исполнителя
+</clmn>
+
+=== Управление ===
+<span button>[[#BACK]]</span> — Назад. Переход в предыдущий контекст.\\
+\\
+<span button>[[#L/R/U/D]]</span> – Навигация. Переход между плитками альбомов.\\
+\\
+<span button>[[#ENTER]]</span> – Выбрать. Переход на [[#Страница альбома|страницу альбома]].\\
+\\
+
+===== Страница альбома =====
+Страница альбома с возможностью прослушивания треков.
+
+=== Шаблон макета ===
+<clmn>
+{{:internal:hotezatv-layout-default-m.png?linkonly|Metro Default Layout}}
+<nclmn>
+{{:internal:hotezatv-layout-default-c.png?linkonly|Classic Default Layout}}
+</clmn>
+
+=== Компоненты ===
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-c.png?300}}\\
+<wrap lo>рис. 3</wrap>\\
+\\
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-m.png?300}}\\
+<wrap lo>рис. 3.M</wrap>\\
+<nclmn>
+В //<color #8a2be2>блоке основного контента</color>// отображаются:
+  - Название альбома (Заголовок страницы)
+  - Имя исполнителя (Подзаголовок первого уровня)
+  - Обложка альбома
+  - Перечень треков:
+    * Порядковый номер
+    * Название трека
+    * Длительность (hh:mm:ss/mm:ss)
+</clmn>
+
+=== Управление ===
+<span button>[[#BACK]]</span> — Назад. Переход в предыдущий контекст.\\
+\\
+<span button>[[#U/D]]</span> – Навигация. Переход между треками.\\
+\\
+<span button>[[#ENTER]]</span> – Слушать. Переход в [[#Страница альбома: режим воспроизведения|режим воспроизведения]].\\
+\\
+
+===== Страница альбома: режим воспроизведения =====
+Воспроизводимый в данный момент трек отмечается динамической пиктограммой [[http://wiki.hoteza.com/doku.php?id=internal:pat-icons#Media Playback|Сейчас играет…]]. Трек на паузе отмечается пиктограммой [[http://wiki.hoteza.com/doku.php?id=internal:pat-icons#Media Playback|Pause]]. В строке трека отображается шкала показывающая прогресс воспроизведения.\\
+\\
+В шапке появлятся мини-плеер
+=== Шаблон макета ===
+<clmn>
+{{:internal:hotezatv-layout-default-m.png?linkonly|Metro Default Layout}}
+<nclmn>
+{{:internal:hotezatv-layout-default-c.png?linkonly|Classic Default Layout}}
+</clmn>
+
+=== Компоненты ===
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-c.png?300}}\\
+<wrap lo>рис. 4</wrap>\\
+<nclmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-m.png?300}}\\
+<wrap lo>рис. 4.M</wrap>\\
+</clmn>
+
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-nofocus-c.png?300}}\\
+<wrap lo>рис. 5</wrap>\\
+<nclmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-nofocus-m.png?300}}\\
+<wrap lo>рис. 5.M</wrap>\\
+</clmn>
+
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-paused-c.png?300}}\\
+<wrap lo>рис. 6</wrap>\\
+<nclmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-paused-m.png?300}}\\
+<wrap lo>рис. 6.M</wrap>\\
+</clmn>
+
+<clmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-playbackerror-c.png?300}}\\
+<wrap lo>рис. 7</wrap>\\
+<nclmn>
+{{popup>:internal:ux:hotezatv:musicondemand:hotezatv-muicondemand-albumpage-nowplaying-playbackerror-m.png?300}}\\
+<wrap lo>рис. 7.M</wrap>\\
+</clmn>
+
+=== Управление ===
+<span button>[[#BACK]]</span> — Назад. Переход в предыдущий контекст.\\
+\\
+<span button>[[#U/D]]</span> – Навигация. Переход между треками.\\
+\\
+<span button>[[#ENTER]]</span> – Слушать/Остановить.\\
+\\
+<span button>[[#◄◄/►/ ▌▌/ █▌/►►]]</span> – Управление воспроизведением.\\
+\\

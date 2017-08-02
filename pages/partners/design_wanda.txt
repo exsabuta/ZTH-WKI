@@ -1,0 +1,3 @@
+===== Wanda Reign Design =====
+[[partners:design_wanda_pres|Wanda Presentation]] \\
+{{gallery>:partners?design-wanda-*&crop&lightbox}}

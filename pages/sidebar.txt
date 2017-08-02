@@ -1,0 +1,3 @@
+[[internal:start|Wiki for Internal Use]]
+
+[[partners:start|Wiki for Partners]]

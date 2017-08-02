@@ -1,0 +1,190 @@
+====== HotezaTV — Виджет погоды ======
+
+=== Контексты ===
+  * [[#1. Страница виджета погоды]];
+  * [[#2. Страница виджета погоды: режим выбора города]];
+  * [[#3. Плитка виджета погоды в метро-меню]];
+  * [[#4. Мини-виджет в TopBar]].
+
+===== 1. Страница виджета погоды =====
+Полная версия виджета погоды с максимальным набором функций, представленная на отдельной странице.
+
+=== Шаблон макета ===
+<WRAP group>
+<WRAP half column 300px>
+{{gallery>:internal:hotezatv-weatherwidget-d.png?&300x300&lightbox}}
+</WRAP>
+<WRAP half column>
+  - <color #ff7f27>Панель «[[internal:Pat-MainBar#Панель TopBar|TopBar]]»</color>: Контент фиксированный; Может получить фокус.
+  - <color #8a2be2>Блок основного контента</color>: Контент фиксированный; Не может получить фокус.
+  - <color #00a2e8>Нижняя панель</color>: Контент фиксированный; Не может получить фокус.
+  - <color #22b14c>Панель «[[internal:Pat-MainBar#Панель InfoBar|InfoBar]]»</color>: Контент фиксированный; Не может получить фокус.
+</WRAP>
+</WRAP>
+
+=== Компоненты ===
+<WRAP group>
+<WRAP half column 300px>
+{{gallery>:internal:hotezatv-weatherwidget-widgetpage-01.png?&300x300&lightbox}}
+<wrap lo>рис. 1</wrap>
+{{gallery>:internal:hotezatv-weatherwidget-widgetpage-01_longlabels_.png?&300x300&lightbox}}
+<wrap lo>рис. 1.1</wrap>
+</WRAP>
+<WRAP half column>
+В //<color #8a2be2>блоке основного контента</color>// отображается //текущая погода//:
+  - Текущая погода:
+    * Заголовок «//xxx//, //yyy//». Где //ххх// — название текущего местоположения клиента, //yyy// — текстовое описание текущего состояния погоды <color grey>(weather.description)</color>
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(weather.icon)</color>
+    * Температура <color grey>(main.temp)</color>
+    * Ветер:
+      * подпись «Ветер»,
+      * [[internal:Pat-Icons#Направление ветра|пиктограмма направления ветра]] <color grey>(на основе: wind.deg)</color> (↓ N 348.75–33.75, ↙ NE 33.75–78.75, ← E 78.75–123.75, ↖ SE 123.75–168.75, ↑ S 168.75–213.75, ↗ SW 213.75–258.75, → W 258.75–303.75, ↘ NW 303.75–348.75)
+      * текстовое обозначение направления ветра <color grey>(на основе: wind.deg)</color> (северный north, северо-восточный north-east, восточный east, юго-восточный south-east, южный south, юго-западный south-west, западный west, северо-западный north-west),
+      * скорость ветра <color grey>(wind.speed)</color>
+    * Влажность:
+      * подпись «Влажность»,
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма влажности]],
+      * значение <color grey>(main.humidity)</color>
+    * Давление:
+      * подпись «Давление»,
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма давления]],
+      * значение <color grey>(main.pressure)</color>
+    * Облачность:
+      * подпись «Облачность»,
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма облачности]],
+      * значение <color grey>(clouds.all)</color>
+
+В //<color #00a2e8>нижней панели</color>// — //прогноз на 5 дней// (включая текущий день) состоящий из параметров сгруппированных в //карточки дней//:
+  - //Карточка дня//:
+    * Заголовок — Название дня недели (для первой карточки, вместо названия дня недели, заголовок всегда — «Сегодня»)
+    * Число и месяц
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(list.weather.icon)</color>
+    * Текстовое описание состояния погоды <color grey>(list.weather.description)</color>
+    * Температура <color grey>(list.main.temp)</color>
+    * Ночная температура:
+      * подпись «ночью»,
+      * значение <color grey>(list.temp.night)</color>
+    * Ветер:
+      * [[internal:Pat-Icons#Направление ветра|пиктограмма направления ветра]] <color grey>(на основе: list.wind.deg)</color> (↓ N 348.75–33.75, ↙ NE 33.75–78.75, ← E 78.75–123.75, ↖ SE 123.75–168.75, ↑ S 168.75–213.75, ↗ SW 213.75–258.75, → W 258.75–303.75, ↘ NW 303.75–348.75),
+      * краткое текстовое обозначение направления ветра <color grey>(на основе: wind.deg)</color> (С N, СВ NE, В E, ЮВ SE, Ю S, ЮЗ SW, З W, СЗ NW),
+      * скорость ветра <color grey>(list.wind.speed)</color>
+    * Влажность:
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма влажности]],
+      * значение <color grey>(list.main.humidity)</color>
+    * Давление:
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма давления]],
+      * значение <color grey>(list.main.pressure)</color>
+</WRAP>
+</WRAP>
+
+=== Управление ===
+<span button>[[#BACK]]</span> – «назад», в предыдущий контекст.\\
+\\
+<span button>[[#GREEN]]</span> – переключить единицы измерения. Температура: °С | °F, скорость ветра: м/с | mph, давление: мм («рт. ст.» не пишем) | hPa\\
+\\
+<span button>[[#YELLOW]]</span> — выбор другого города. переход в контекст
+\\
+
+===== 2. Страница виджета погоды: режим выбора города =====
+
+=== Компоненты ===
+<WRAP group>
+<WRAP half column 300px>
+{{gallery>:internal:hotezatv-weatherwidget-widgetpage-01_ChangeLocationMode-1.png?&300x300&lightbox}}
+<wrap lo>рис. 1.2</wrap>
+{{gallery>:internal:hotezatv-weatherwidget-widgetpage-01_ChangeLocationMode-2.png?&300x300&lightbox}}
+<wrap lo>рис. 1.3</wrap>
+
+=== Управление ===
+<span button>[[#BACK]]</span> – «назад», в предыдущий контекст.\\
+\\
+<span button>[[#ENTER]]</span> — выбрать город.
+\\
+
+
+===== 3. Плитка виджета погоды в метро-меню =====
+
+<WRAP group center>
+<WRAP half column>
+{{gallery>:internal:hotezatv-weatherwidget-metrotiles-02.png?&300x300&lightbox}}
+<wrap lo>рис. 2</wrap>
+</WRAP>
+<WRAP half column>
+{{?&300x300&lightbox}}
+<wrap lo>рис. 2.1</wrap>
+</WRAP>
+</WRAP>
+
+=== 3.1. Большая плитка виджета погоды (296×297 px) ===
+Плитка имеет 2 кадра:\\
+{{internal:hotezatv-weatherwidget-metrotiles-02_metrotiles-big_.png|}}\\
+\\
+- 1-й кадр (Текущая погода):
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(weather.icon)</color>
+    * Температура <color grey>(main.temp)</color>
+    * Текстовое описание состояния погоды <color grey>(weather.description)</color>
+    * Ветер:
+      * [[internal:Pat-Icons#Направление ветра|пиктограмма направления ветра]] <color grey>(на основе: wind.deg)</color> (↓ N 348.75–33.75, ↙ NE 33.75–78.75, ← E 78.75–123.75, ↖ SE 123.75–168.75, ↑ S 168.75–213.75, ↗ SW 213.75–258.75, → W 258.75–303.75, ↘ NW 303.75–348.75)
+      * краткое текстовое обозначение направления ветра <color grey>(на основе: wind.deg)</color> (С N, СВ NE, В E, ЮВ SE, Ю S, ЮЗ SW, З W, СЗ NW),
+      * скорость ветра <color grey>(wind.speed)</color>
+    * Влажность:
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма влажности]],
+      * значение <color grey>(main.humidity)</color>
+    * Давление:
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма давления]],
+      * значение <color grey>(main.pressure)</color>
+    * Облачность:
+      * [[internal:Pat-Icons#Погода etc.|пиктограмма облачности]],
+      * значение <color grey>(clouds.all)</color>
+
+- 2-й кадр (Текущая погода + прогноз на 3 дня):
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(weather.icon)</color>
+    * Температура <color grey>(main.temp)</color>
+    * Текстовое описание состояния погоды <color grey>(weather.description)</color>
+    * Прогноз на 3 дня, включая текущий день:
+      * Заголовок — Название дня недели (×3) (для первой карточки, вместо названия дня недели, заголовок всегда — «Сегодня»)
+      * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] (×3) <color grey>(list.weather.icon)</color>
+      * Температура <color grey>(list.main.temp)</color> (×3)
+      * Ночная температура <color grey>(temp.night)</color> (×3)
+\\
+\\
+=== 3.2. Средняя плитка виджета погоды (296×144 px) ===
+Плитка имеет 2 кадра:\\
+{{:internal:hotezatv-weatherwidget-metrotiles-02_metrotiles-middle_.png|}}\\
+\\
+ - 1-й кадр (Текущая погода):
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(weather.icon)</color>
+    * Температура <color grey>(main.temp)</color>
+    * Текстовое описание состояния погоды <color grey>(weather.description)</color>
+
+ - 2-й кадр (Прогноз на 3 дня):
+    * Заголовок — Название дня недели (×3) (для первой карточки, вместо названия дня недели, заголовок всегда — «Сегодня»)
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] (×3) <color grey>(list.weather.icon)</color>
+    * Температура <color grey>(list.main.temp)</color> (×3)
+    * Ночная температура <color grey>(temp.night)</color> (×3)
+\\
+\\
+=== 3.3. Маленькая плитка виджета погоды (143×144 px) ===
+Плитка имеет 2 кадра:\\
+{{:internal:hotezatv-weatherwidget-metrotiles-02_metrotiles-small_.png|}}\\
+\\
+ - 1-й кадр (Текущая погода):
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(weather.icon)</color>
+    * Температура <color grey>(main.temp)</color>
+
+ - 2-й кадр (Прогноз на следующий день):
+    * Заголовок — Название дня недели
+    * [[internal:Pat-Icons#Состояние погоды|Пиктограмма состояния погоды]] <color grey>(list.weather.icon)</color>
+    * Температура <color grey>(list.main.temp)</color>
+    * Ночная температура <color grey>(temp.night)</color>
+\\
+\\
+=== Управление ===
+<span button>[[#ENTER]]</span> – переход на [[#Страница виджета погоды|страницу виджета погоды]] .\\
+\\
+\\
+
+===== Мини-виджет в TopBar =====
+<WRAP center round alert 60%>
+ РАЗДЕЛ НЕ ГОТОВ
+</WRAP>

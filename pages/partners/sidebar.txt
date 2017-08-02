@@ -1,0 +1,20 @@
+[[internal:start|Wiki for Internal Use]]
+
+=== Wiki for Partners ===
+
+[[partners:Booklets| Booklets]]  \\ 
+[[partners:Case_Studies| Case Studies]] \\ 
+[[partners:Datasheets| Datasheets]] \\ 
+[[partners:Designs| Designs]] \\ 
+[[partners:Logo| Logo]] \\ 
+[[partners:Manual| Manual]] \\ 
+[[partners:Pics| Pics]] \\ 
+[[partners:Presentations| Presentations]] \\ 
+[[partners:Prices| Prices]] \\ 
+[[partners:Questionnaires| Questionnaires]] \\ 
+[[partners:Recommendation_Letters| Recommendation Letters]] \\ 
+[[partners:References| References]] \\ 
+[[partners:Requirements| Requirements]] \\ 
+[[partners:Templates| Templates]] \\ 
+[[partners:Topology_Schemes| Topology Schemes]] \\ 
+

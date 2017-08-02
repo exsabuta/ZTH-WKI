@@ -1,0 +1,7 @@
+====== Logo ======
+{{ :partners:logo_hoteza.ai |logo_hoteza.ai}} \\
+{{ :partners:logo_hoteza.eps |logo_hoteza.eps}} \\
+{{:partners:logo_hoteza.jpg?linkonly|logo_hoteza.jpg}} \\
+{{ :partners:logo_hoteza.png?linkonly |logo_hoteza.png}} \\
+{{ :partners:logo_hoteza_horizontal.wmf |logo_hoteza_horizontal.wmf}} \\
+{{ :partners:logo_hoteza_original.wmf |logo_hoteza_original.wmf}}

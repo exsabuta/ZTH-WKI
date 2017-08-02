@@ -1,0 +1,1 @@
+{{gallery>:partners?hotpad_eng*&crop&lightbox}}

@@ -1,0 +1,10 @@
+====== Designs ======
+[[partners:design_hotels|Hotels]] \\
+[[partners:design_hotpad|HotPad]] \\
+[[partners:design_Hotsign|HotSign]] \\
+[[partners:design_hsia|HSIA]] \\
+[[partners:design_lobby|Lobby]] \\
+[[partners:design_mobile|Mobile]] \\
+[[partners:design_mobiletablet|Mobile Tablet]] \\
+[[partners:design_tvmetro|TV Metro]] \\
+[[partners:design_tvpro|TV Pro]] \\

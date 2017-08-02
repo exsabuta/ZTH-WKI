@@ -1,0 +1,4 @@
+====== Topology Schemes ======
+{{ :partners:hoteza_product_structure.pdf |Hoteza Product Structure}} \\
+{{ :partners:hoteza_systems_topology_a_ethernet_.pdf |Hoteza Systems Topology A Ethernet}} \\
+{{ :partners:hotpad_topology.pdf |Hotpad Topology}}

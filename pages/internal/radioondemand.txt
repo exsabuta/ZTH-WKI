@@ -1,0 +1,81 @@
+====== Онлайн радио ======
+
+<WRAP center round important 60%> ЭТО ЧЕРНОВИК! </WRAP>
+
+==== PREVIEW ====
+
+=== Metro ===
+
+<clmn 100% center>
+{{popup>:internal:ux:hotezatv:radioondemand:list-m.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:nowplaying-m.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:nowplaying-nofocus-m.png?300}}
+</clmn>
+
+<clmn 100% center>
+{{popup>:internal:ux:hotezatv:radioondemand:filter-m.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:miniplayeronfocus-m.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:streamerror-m.png?300}}
+</clmn>
+
+=== Classic ===
+
+<clmn 100% center>
+{{popup>:internal:ux:hotezatv:radioondemand:list-c.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:nowplaying-c.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:nowplaying-nofocus-c.png?300}}
+</clmn>
+
+<clmn 100% center>
+{{popup>:internal:ux:hotezatv:radioondemand:filter-c.png?300}}
+<nclmn>
+{{popup>:internal:ux:hotezatv:radioondemand:miniplayeronfocus-с.png?300}}
+</clmn>
+
+=== Конексты ===
+
+  * [[#первый_контекст|Первый контекст]];;
+  * [[#второй_контекст|Второй контекст]]
+  * [[#третий_контекст|Третий контекст]]..
+
+===== Первый контекст =====
+
+Общее описание контекста и его особенности.
+
+=== Шаблон макета ===
+
+<clmn>
+  * <color #ff7f27>Верхняя панель «Верхняя панель «[[:internal:pat-mainbar#панель_topbar|TopBar]]»</color>: Контент фиксированный (не скроллится); Может получить фокус.»: Контент фиксированный (не скроллится); Может получить фокус.
+  * <color #8a2be2>Блок основного контента</color>: Контент скроллится вертикально; Фокус по умолчанию.Блок основного контента: Контент скроллится вертикально; Фокус по умолчанию.
+  * <color #22b14c>Нижняя панель «Нижняя панель «[[:internal:pat-mainbar#панель_infobar|InfoBar]]»</color>: Контент фиксированный; Не может получить фокус.»: Контент фиксированный; Не может получить фокус.
+
+<nclmn 40% center>
+{{popup>:internal:hotezatv-layout-default-c.png?300}}
+</clmn>
+
+=== Компоненты ===
+
+<WRAP group> <WRAP half column 300px>
+
+{{popup>:internal:filename.png?300}}
+
+<wrap lo>рис. 1</wrap> \\ </WRAP> <WRAP half column> В //<color #8a2be2>блоке основного контента</color>//  отображаются :
+
+  -
+  -
+
+</WRAP> </WRAP>
+
+=== Управление ===
+
+<span button>[[#back|BACK]]</span> — ****. \\
+ \\
+<span button>[[#l_r_u_d|L/R/U/D]]</span> – . \\
+ \\
+<span button>[[#enter|ENTER]]</span> – .

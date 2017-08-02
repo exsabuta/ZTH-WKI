@@ -1,0 +1,20 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1487597208;s:8:"modified";i:1492698022;}s:7:"creator";s:16:"Nikita Gerasimov";s:4:"user";s:2:"ux";s:11:"last_change";a:8:{s:4:"date";i:1492698022;s:2:"ip";s:13:"84.52.122.190";s:4:"type";s:1:"E";s:2:"id";s:18:"internal:ux_hoteza";s:4:"user";s:2:"ux";s:3:"sum";s:40:"[UX — Обзоры и репорты] ";s:5:"extra";s:0:"";s:10:"sizechange";i:154;}s:11:"contributor";a:1:{s:2:"ux";s:16:"Nikita Gerasimov";}s:5:"title";s:16:"UX — Hoteza TV";s:11:"description";a:2:{s:15:"tableofcontents";a:3:{i:0;a:4:{s:3:"hid";s:12:"ux_hoteza_tv";s:5:"title";s:16:"UX — Hoteza TV";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:33:"ux_обзоры_и_репорты";s:5:"title";s:37:"UX — Обзоры и репорты";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:17:"ux_идейник";s:5:"title";s:21:"UX — Идейник";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:561:"UX — Hoteza TV
+
+	*  Каналы ТВ
+	*  Видео по запросу (VOD)
+	*  Виджет погоды
+	*  Экран приветствия
+	*  Паттерн — Основные панели
+	*  Паттерн — Пиктограммы
+
+UX — Обзоры и репорты
+
+	*  IPTV и главное меню отель «Казжол Алматы»:
+		*  Видеорепорт
+		*  Пульт
+
+	*  Пульт в приложении Samsung Smart view
+
+UX — Идейник
+
+	*  Отслеживание статуса заказа у Bnovo…";}s:8:"relation";a:2:{s:10:"references";a:6:{s:19:"internal:tvchannels";b:1;s:22:"internal:videoondemand";b:1;s:22:"internal:weatherwidget";b:1;s:22:"internal:welcomescreen";b:1;s:20:"internal:pat-mainbar";b:1;s:18:"internal:pat-icons";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1487597208;s:8:"modified";i:1492698022;}s:7:"creator";s:16:"Nikita Gerasimov";s:4:"user";s:2:"ux";s:11:"last_change";a:8:{s:4:"date";i:1492698022;s:2:"ip";s:13:"84.52.122.190";s:4:"type";s:1:"E";s:2:"id";s:18:"internal:ux_hoteza";s:4:"user";s:2:"ux";s:3:"sum";s:40:"[UX — Обзоры и репорты] ";s:5:"extra";s:0:"";s:10:"sizechange";i:154;}s:11:"contributor";a:1:{s:2:"ux";s:16:"Nikita Gerasimov";}}}

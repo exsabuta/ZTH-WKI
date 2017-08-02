@@ -1,0 +1,10 @@
+====== Hoteza Booklets ======
+
+{{ :hoteza_2015_eng.pdf |Hoteza}} \\
+{{ :hoteza_tv.pdf |Hoteza TV}} \\
+{{ :hoteza_hotpad.pdf |Hoteza Hotpad Hotpad}} \\
+{{ :hoteza_mobile.pdf |Hoteza Mobile}} \\
+{{ :hoteza_hotsign.pdf |Hoteza Hotsign}} \\
+{{ :hoteza_lobby.pdf |Hoteza Lobby}} \\
+{{ :hoteza_hsia.pdf |Hoteza HSIA}}
+

@@ -1,0 +1,5 @@
+====== Hoteza Wiki for internal use ======
+
+[[internal:projects|Projects]]\\
+
+[[internal:documentation|Documentation]]\\

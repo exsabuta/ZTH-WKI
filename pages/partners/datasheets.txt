@@ -1,0 +1,4 @@
+====== Datasheets ======
+{{ :partners:hoteza_hsia_gateway_v5_datasheet.pdf |Hoteza HSIA Gateway V5 Datasheet}} \\
+{{ :partners:hoteza_hsia_gateway_v6_datasheet.pdf |Hoteza HSIA Gateway V6 Datasheet}} \\
+{{ :partners:hotezatv-datasheet.pdf |Hoteza TV Datasheet}}

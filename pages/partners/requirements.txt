@@ -1,0 +1,2 @@
+====== Requirements ======
+{{ :partners:hoteza_iptv_requirements.docx |Hoteza IPTV requirements}}

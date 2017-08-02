@@ -1,0 +1,9 @@
+=== Wiki for Internal Use ===
+
+
+[[internal:projects|Projects]]
+
+[[internal:documentation|Documentation]]\\
+\\
+
+[[partners:start|Wiki for Partners]]

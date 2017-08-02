@@ -1,0 +1,15 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1487152729;s:8:"modified";i:1490713302;}s:7:"creator";s:8:"Hotadmin";s:4:"user";s:8:"hotadmin";s:11:"last_change";a:8:{s:4:"date";i:1490713302;s:2:"ip";s:13:"84.52.122.190";s:4:"type";s:1:"E";s:2:"id";s:19:"internal:tvchannels";s:4:"user";s:2:"ux";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-132;}s:11:"contributor";a:2:{s:8:"hotadmin";s:8:"Hotadmin";s:2:"ux";s:16:"Nikita Gerasimov";}s:5:"title";s:30:"HotezaTV — Каналы ТВ";s:11:"description";a:2:{s:15:"tableofcontents";a:7:{i:0;a:4:{s:3:"hid";s:26:"hotezatv_каналы_тв";s:5:"title";s:30:"HotezaTV — Каналы ТВ";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:32:"список_тв-каналов";s:5:"title";s:32:"Список ТВ-каналов";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:87:"список_тв-каналоврежим_фильтрации_по_категории";s:5:"title";s:89:"Список ТВ-каналов: режим фильтрации по категории";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:79:"список_тв-каналоврежим_фильтрации_по_языку";s:5:"title";s:81:"Список ТВ-каналов: режим фильтрации по языку";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:104:"просмотр_тв-каналарежим_отображения_информации_о_канале";s:5:"title";s:106:"Просмотр ТВ-канала: режим отображения информации о канале";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:97:"просмотр_тв-каналарежим_переключения_языков_вещания";s:5:"title";s:99:"Просмотр ТВ-канала: режим переключения языков вещания";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:6;a:4:{s:3:"hid";s:71:"просмотр_тв-каналаполноэкранный_режим";s:5:"title";s:73:"Просмотр ТВ-канала: полноэкранный режим";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:591:"HotezaTV — Каналы ТВ
+
+Контексты
+
+	*  ;
+	*  ;
+	*  .
+	*  ;
+	*  ;
+	*  .
+
+Список ТВ-каналов
+
+Перечень всех доступных для просмотра тв-каналов с возможностью фильтрации по категории или языку вещания.
+По умолчанию в фокусе первая в списке плитка тв-канала, фильтры не применяются (выводятся все доступные каналы). При повторном переходе в контекст…";}s:8:"relation";a:2:{s:10:"references";a:4:{s:20:"internal:pat-mainbar";b:1;s:18:"internal:pat-icons";b:1;s:23:"internal:systemsettings";b:0;s:22:"internal:welcomescreen";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1487152729;s:8:"modified";i:1490713302;}s:7:"creator";s:8:"Hotadmin";s:4:"user";s:8:"hotadmin";s:11:"last_change";a:8:{s:4:"date";i:1490713302;s:2:"ip";s:13:"84.52.122.190";s:4:"type";s:1:"E";s:2:"id";s:19:"internal:tvchannels";s:4:"user";s:2:"ux";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-132;}s:11:"contributor";a:2:{s:8:"hotadmin";s:8:"Hotadmin";s:2:"ux";s:16:"Nikita Gerasimov";}}}

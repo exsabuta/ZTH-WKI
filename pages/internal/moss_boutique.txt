@@ -1,0 +1,7 @@
+Tesa – RDP – 195.91.182.76
+
+Administrator/8MossMoss8
+
+Mikrotik -195.91.182.76:80
+
+Hoteza TV – 195.91.182.76:9980 (:22,:443,:8080)

@@ -1,0 +1,44 @@
+===== UX — Hoteza TV =====
+ {{fa>file-text-o?color=#22b14c}} <color #22b14c>Готово</color>   {{fa>file-text-o?color=#ff7f27}} <color #ff7f27>  Основная часть готова, можно читать. Что-то может добавиться</color>   {{fa>file-o?color=#c3c3c3}} <color #c3c3c3>Рабочий черновик. Читать не рекоммендуется</color>
+  * {{fa>file-text-o?color=#22b14c}} [[internal:TVchannels|Каналы ТВ]]
+  * {{fa>file-text-o?color=#ff7f27}} [[internal:VideoOnDemand|Видео по запросу (VOD)]]
+  * {{fa>file-o?color=#c3c3c3}} [[internal:RadioOnDemand|Онлайн радио]]
+  * {{fa>file-text-o?color=#22b14c}} [[internal:MusicOnDemand|Музыка по запросу (MOD)]]
+  * {{fa>file-text-o?color=#22b14c}} [[internal:WeatherWidget|Виджет погоды]]
+  * {{fa>file-o?color=#c3c3c3}} [[internal:AirportsWidget|Виджет аэропорта]]
+  * {{fa>file-o?color=#c3c3c3}} [[internal:PINCode|PIN код]]
+  * {{fa>file-o?color=#c3c3c3}} [[internal:WelcomeScreen|Экран приветствия]]
+  * {{fa>file-o?color=#c3c3c3}} [[internal:Pat-MainBar|Паттерн — Основные панели]]
+  * {{fa>file-text-o?color=#ff7f27}} [[internal:Pat-Icons|Паттерн — Пиктограммы]]
+  * {{fa>file-text-o?color=#ff7f27}} [[internal:Pat-Layouts|Паттерн — Шаблоны макетов]]
+
+===== UX — Hoteza Mobile =====
+  * {{fa>file-text-o?color=#ff7f27}} [[internal:MobileKey|Мобильный ключ]]
+
+===== UX — Обзоры, репорты, демки, конкуренты =====
+  * IPTV и главное меню отель «Казжол Алматы»:
+    * [[https://smarteqteam.slack.com/files/daniel.rodichev/F4G3PKU9H/vid_20170309_212442.mp4|Видеорепорт]]
+    * [[https://smarteqteam.slack.com/files/daniel.rodichev/F4G3WD8SF/img_20170309_213455.jpg|Пульт]]
+  * [[https://smarteqteam.slack.com/files/xtozee/F51UJ5EHH/pasted_image_at_2017_04_20_05_12_pm.png|Пульт в приложении Samsung Smart view]]
+  * [[https://www.youtube.com/watch?t=7s&v=dOU5Mp38qbw&app=desktop|Видеообзор iLumio Mobile Concierg]] (+звонок/видеозвонок консьержу; +Нижняя шторка с быстрыми сылками; +Всплывающий блок с рейтингом)
+  * [[https://ecclestonsquarehotel.icemain.com/ICEWeb/|Веб-приложение от]] [[http://intelitycorp.com/main/|Intelity]]
+  * [[http://dyosuites.com/technology/|Dyo Suites Luxury Boutique Hotel Rethymno Crete :)]]
+  * Swisscom TV
+    * [[http://tvair.swisscom.ch/videos/category/074aeed6-17c7-38b8-8577-b842305c9338|Веб-приложение Swisscom TV Air]]
+    * [[https://doncesario.files.wordpress.com/2014/04/img_3691.jpg|Пульт Swisscom TV 2.0]]
+    * [[https://www.swisscom.ch/en/residential/internet-television-fixednetwork/swisscom-tv/functions-tv.html|Swisscom TV 2.0]]
+  * [[http://pwv.ru/ru/systems/978/1028/|LG Pro:Centric]]
+  * [[http://pwv.ru/ru/systems/978/5759/|VDA PowerTV ONAIR]]
+  * [[http://pwv.ru/ru/systems/978/hibox/|HIBOX]]
+  * [[http://pwv.ru/ru/systems/978/vestel-ip-hoteltv/|Vestel]]
+  * [[http://pwv.ru/ru/systems/978/1022/|Quadriga Sensiq]]
+  * [[http://www.nevaya.com/nevaya-tv.html|NevayaTV]]
+  * [[http://www.suitepad.de/en/|SuitePad]]
+  * [[https://www.youtube.com/watch?v=NWFn55LFcMo|Samsung Link Reach VideoTutorial]]
+  * [[https://webdemo.otrum.net/|OTRUM Enterprice TV App Demo]]
+
+===== UX — Шаблоны вики-страниц =====
+  * [[internal:UX-WikiPageTemplate-1]]
+
+===== UX — Идейник =====
+  * **Отслеживание статуса заказа у Bnovo** https://m.youtube.com/watch?v=OBF6eb8J7P0&t=2s Мысли на сон грядущий. У Бново очень здорово реализован прогресс выполнения заказа через корзину (см. ролик). У нас отслеживание заказа/сервиса гостем отсутствует полностью, и это очень большой минус. Так в корзине можно смотреть как новые заказы, так и в процессе / выполненные / отменённые. Предлагаю поставить это в план на следующий квартал :)

@@ -1,0 +1,10 @@
+<wrap hide>
+=== Для партнёров (For partners) ===
+|  \\ [[partners:Booklets]] \\ \\    | \\ [[partners:Designs]] \\ | \\ [[partners:Pics]] \\          | \\ [[partners:Questionnaires]] \\       | \\ [[partners:Requirements]] \\     |
+| \\ [[partners:Case Studies]] \\ \\ | \\ [[partners:Logo]] \\    | \\ [[partners:Presentations]] \\  | \\ [[partners:Recommendation Letters]] \\ | \\ [[partners:Templates]] \\        |
+| \\ [[partners:Datasheets]] \\   | \\ [[partners:Manual]] \\  | \\ [[partners:Prices]] \\        | \\ [[partners:References]] \\             | \\ [[partners:Topology Schemes]] \\  |
+
+----
+
+<WRAP centeralign>[[internal:start|Для внутреннего использования (For Internal use)]]</WRAP>
+</wrap>

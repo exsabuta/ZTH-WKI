@@ -1,0 +1,144 @@
+====== Hoteza TV — Пиктограммы ======
+На этой странице нужно собрать библиотеку всех используемых в наших интерфейсах пиктограмм (иконок).
+
+==== Состояние погоды ====
+Используется в [[internal:weatherwidget|виджете погоды]].
+  * Ясно день (Clear sky day) <color #c3c3c3>Group 800</color>
+  * Ясно ночь (Clear sky night) <color #c3c3c3>Group 800</color>
+  * Облачно день (Clouds day) <color #c3c3c3>Group 80x</color>
+  * Облачно ночь (Clouds night) <color #c3c3c3>Group 80x</color>
+  * Дождь день (Rain day) <color #c3c3c3>Group 5xx</color>
+  * Дождь ночь (Rain night) <color #c3c3c3>Group 5xx</color>
+  * Лёгкий дождик день (Drizzle day) <color #c3c3c3>Group 3xx</color>
+  * Лёгкий дождик ночь (Drizzle night) <color #c3c3c3>Group 3xx</color>
+  * Снег день (Snow day) <color #c3c3c3>Group 6xx</color>
+  * Снег ночь (Snow night) <color #c3c3c3>Group 6xx</color>
+  * Гроза день (Thunderstorm day) <color #c3c3c3>Group 2xx</color>
+  * Гроза ночь (Thunderstorm night) <color #c3c3c3>Group 2xx</color>
+
+==== Направление ветра ====
+Используется в [[internal:weatherwidget|виджете погоды]].
+  * ↓ N
+  * ↙ NE
+  * ← E
+  * ↖ SE
+  * ↑ S
+  * ↗ SW
+  * → W
+  * ↘ NW
+
+==== Погода etc. ====
+Используется в [[internal:weatherwidget|виджете погоды]].
+  * Влажность
+  * Давление
+  * Облачность
+
+==== ТВ ====
+Используется в [[internal:tvchannels|ТВ-каналах]].
+  * Категория
+  * Язык вещания
+
+==== VoD ====
+Используется в [[internal:videoondemand|Видео по запросу]].
+  * Категория
+  * Год выпуска
+  * Цена
+  * Бесплатный контент
+
+==== Media Playback ====
+Используется в [[internal:musicondemand|Музыка по запросу]], [[internal:radioondemand|Онлайн радио]].
+  * Сейчас играет… (Динамическая пиктограмма воспроизводимого в данный момент аудиофайла и аудиопотока).
+  * Play
+  * Pause
+
+==== ETC. ====
+Используется в [[internal:videoondemand|Видео по запросу]].
+
+==== Знаки возрастных ограничений ====
+Используется в [[internal:videoondemand|Видео по запросу]].
+  - RUS (RARS)
+    * 0+
+    * 6+
+    * 12+
+    * 16+
+    * 18+
+  - USA (MPAA)
+    * G
+    * PG
+    * PG-13
+    * R
+    * NC-17
+  - UKR
+    * 12+
+    * 16+
+    * 18+
+  - KAZ
+    * К
+    * БА
+    * Б14
+    * Е16
+    * Е18
+    * НА
+
+==== Государственные флаги ====
+Используется в [[internal:tvchannels|ТВ-каналах]].
+  * [[https://www.dropbox.com/sh/9nsuvth2nfly9gr/AACehJ0ec8lL8rzlp0xjvQGSa?dl=0|Dropbox — Государственные флаги (.png, 24×24 px)]]
+
+==== Кнопки InfoBar ====
+Используется в [[internal:pat-mainbar|паттерне — Основные панели]].
+Пиктограммы на панели InfoBar, выглядят как соответствующие физические кнопки на пульте. Для каждого пульта (пока только LG и Samsung) должен быть свой набор. Зачёркнутые пока под вопросом.
+  * <del>Включение/выключение (Power)</del>
+  * Назад (Back)
+  * Все направления крестовины (Left, Up, Right, Down)
+  * Крестовина влево (Left)
+  * Крестовина вверх (Up)
+  * Крестовина вправо (Right)
+  * Крестовина вниз (Down)
+  * Крестовина влево/вправо (Left/Right)
+  * Крестовина вверх/вниз (Up/Down)
+  * ОК (Enter)
+  * <del>Меню (Menu)</del>
+  * <del>Домой (Home)</del>
+  * Громкость + (Vol. +)
+  * Громкость - (Vol. -)
+  * Громкость +/- (Vol. +/-)
+  * Переключить канал + (Ch. +)
+  * Переключить канал - (Ch. -)
+  * Переключить канал +/- (Ch. +/-)
+  * Плей/Пауза (Pay/Pause)
+  * Стоп (Stop)
+  * Перемотка назад (Rew)
+  * Перемотка вперёд (Fwd)
+  * Перемотка назад/вперёд (Rew/Fwd)
+  * <del>Выключение звука (Mute)</del>
+  * Жёлтая кнопка (Yellow button)
+  * Синяя кнопка (Blue button)
+  * Зелёная кнопка (Green button)
+  * Красная кнопка (Red button)
+  * <del>1</del>
+  * <del>2</del>
+  * <del>3</del>
+  * <del>4</del>
+  * <del>5</del>
+  * <del>6</del>
+  * <del>7</del>
+  * <del>8</del>
+  * <del>9</del>
+  * <del>0</del>
+  * <del>Все цифровые кнопки (1…0)</del>
+
+==== Пиктограммы TopBar ====
+Используется в [[internal:pat-mainbar|паттерне — Основные панели]].
+  * Номер отеля
+  * Время
+  * Погода (см. [[#состояние_погоды|состояние погоды]])
+  * Помощь (Справка)
+  * Настройка (Опции)
+
+==== Preloader ====
+  * Анимированный прелоадер
+
+==== Логотипы ТВ-каналов ====
+Используется в [[internal:tvchannels|ТВ-каналах]].
+  * [[https://smarteq.wetransfer.com/downloads/88b4997af6f83080c66cd426d32631f220170320084429/50c01113f8d1cbf29d076ebb7ec9ddd520170320084429/eb3277|Сырая библиотека 420 каналов]];
+  * [[|Готовые логотипы ТВ-каналов]]

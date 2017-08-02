@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "109.120.185.10",
+  "port": "22",
+  "target": "/usr/share/dokuwiki/data/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ux",
+  "watch": [],
+  "transport": "scp",
+  "password": "Nitro1984"
+}

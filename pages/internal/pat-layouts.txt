@@ -1,0 +1,58 @@
+====== HotezaTV — Шаблоны макетов ======
+
+=== 1. Metro ===
+<clmn 100% center>
+{{popup>:internal:hotezatv-layout-default-m.png?300}}\\
+<wrap lo>1.1 Стандартный шаблон Metro</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-channellist-a.png?300}}\\
+<wrap lo>1.2 Шаблон с правой панелью</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-channellist-b.png?300}}\\
+<wrap lo>1.3 Шаблон с панелями поверх контента</wrap>\\
+\\
+</clmn>
+
+<clmn 100% center>
+{{popup>:internal:hotezatv-channellist-c.png?300}}\\
+<wrap lo>1.4 Шаблон для полноэкранного контента</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-weatherwidget-d.png?300}}\\
+<wrap lo>1.5 Шаблон с большой нижней панелью</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-layout-modaldialogwithheader-mc.png?300}}\\
+<wrap lo>1.6 Модальное окно с заголовком</wrap>\\
+\\
+</clmn>
+
+<clmn 100% center>
+{{popup>:internal:hotezatv-layout-twomodaldialogs-mc.png?300}}\\
+<wrap lo>1.7 Два модальных окна</wrap>\\
+\\
+</clmn>
+
+
+=== 2. Classic ===
+<clmn 100% center>
+{{popup>:internal:hotezatv-layout-default-c.png?300}}\\
+<wrap lo>2.1 Стандартный шаблон Classic</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-channellist-a.png?300}}\\
+<wrap lo>2.2 Шаблон с правой панелью</wrap>\\
+\\
+<nclmn center>
+{{popup>:internal:hotezatv-layout-modaldialogwithheader-mc.png?300}}\\
+<wrap lo>2.3 Модальное окно с заголовком</wrap>\\
+\\
+</clmn>
+
+<clmn 100% center>
+{{popup>:internal:hotezatv-layout-twomodaldialogs-mc.png?300}}\\
+<wrap lo>2.3 Два модальных окна</wrap>\\
+\\
+</clmn>

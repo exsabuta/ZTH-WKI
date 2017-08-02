@@ -1,0 +1,3 @@
+====== Case Studies ======
+
+{{ :partners:hermitage.pdf |Hermitage}}

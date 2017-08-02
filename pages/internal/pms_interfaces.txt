@@ -1,0 +1,13 @@
+1.**FIAS_TCP/IP (Ethernet only)**
+
+  * Opera
+  * Fidelio
+  * Libra ( not all methods, ask Libra partner for more information )
+  * Protel
+
+2.**WebAPI (HTTP only)**
+
+  * Epitome
+  * WestSoft
+  * KorPMS (HREC*KOR) - under development
+

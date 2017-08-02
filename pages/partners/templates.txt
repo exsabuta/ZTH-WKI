@@ -1,0 +1,6 @@
+====== Templates ======
+
+{{ :partners:hoteza_tv_proposal_template.xlsx |Hoteza TV Proposal Template}} \\
+{{ :partners:hoteza_tv_proposal_template_v2.docx |Hoteza TV Proposal Template v2}} \\
+{{ :partners:sublicense_agreement_eng_.docx |Sublicense Agreement ENG}} \\
+{{ :partners:open_sans.zip |Open Sans Fonts}}
